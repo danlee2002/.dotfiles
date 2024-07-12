@@ -1,0 +1,22 @@
+{
+  "suggest.noselect": false,
+  "suggest.enablePreview": true,
+  "coc.preferences.useQuickfixForLocations": true,
+  "languageserver": {
+    "python": {
+      "command": "python",
+      "args": ["-m", "pyls"],
+      "filetypes": ["python"],
+      "settings": {
+        "pyls": {
+          "plugins": {
+            "jedi_completion": {
+              "include_params": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
